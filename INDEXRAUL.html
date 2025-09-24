@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Hollow Knight</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      background: url("https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg") no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px black;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .game-info {
+      background: url("https://images8.alphacoders.com/865/865042.jpg") no-repeat center/cover;
+      padding: 60px 20px;
+      border-radius: 10px;
+      color: white;
+      text-shadow: 2px 2px 4px black;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 0 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Hollow Knight
+  </header>
+
+  <section>
+    <h2>Sobre o jogo</h2>
+    <p>
+      Hollow Knight é um jogo de ação e aventura em estilo metroidvania desenvolvido pela Team Cherry.
+      Explore o reino de Hallownest, enfrente inimigos desafiadores e descubra segredos em um mundo sombrio e misterioso.
+    </p>
+  </section>
+
+  <section class="game-info">
+    <h2>Atmosfera única</h2>
+    <p>
+      Com trilha sonora marcante, arte desenhada à mão e jogabilidade precisa, Hollow Knight cria uma experiência imersiva para os jogadores.
+    </p>
+  </section>
+
+  <section>
+    <h2>Galeria de Imagens</h2>
+    <div class="gallery">
+      <img src="https://images.alphacoders.com/865/865043.jpg" alt="Cena do jogo 1">
+      <img src="https://images.alphacoders.com/865/865044.jpg" alt="Cena do jogo 2">
+      <img src="https://images.alphacoders.com/865/865045.jpg" alt="Cena do jogo 3">
+      <img src="https://images.alphacoders.com/865/865046.jpg" alt="Cena do jogo 4">
+    </div>
+  </section>
+
+  <footer>
+    Feito por um fã de Hollow Knight 🦋
+  </footer>
+</body>
+</html>
